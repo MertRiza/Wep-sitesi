@@ -71,6 +71,11 @@
     padding-top: 20px;
     padding-bottom: 20px;
 }
+.sabaslik{
+    color:darkblue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 
 .baslik{
     color: indigo;
@@ -79,6 +84,6 @@
 }
 
 .resim {
- max-width: 100%;
+ width: 100%;
  height: auto;
 }
