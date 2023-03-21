@@ -5,9 +5,14 @@
     padding:0;
 }
 .container{
-    background: url(resim.jpg);
-    height:100vh;
+    background-color: bisque;
     background-size:100% 100%;
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
 }
 .container .navbar{
     width: 100%;
@@ -51,4 +56,29 @@
 .navbar ul li a:hover{
     background:#ff6e00;
     border-radius: 2px;
+}
+.yazi{
+    color: black;
+    font-size:30px; 
+     
+}
+.yazi p {
+    margin-bottom: 2rem;
+}
+
+.anbaslik{
+    color:brown;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.baslik{
+    color: indigo;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.resim {
+ max-width: 100%;
+ height: auto;
 }
