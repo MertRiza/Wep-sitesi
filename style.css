@@ -15,8 +15,9 @@
     
 }
 .container .navbar{
+   
     width: 100%;
-    height: 80px;
+    height: 100px;
     background:rgba(0, 6, 13, 0.956);
 }
 .navbar .logo{
@@ -33,11 +34,13 @@
 }
 
 .navbar ul{
+    
     float: right;
     margin-right: 20px;
 }
 
 .navbar ul li{
+    
     list-style: none;
     display: inline-block;
     margin:0 8px;
@@ -45,7 +48,8 @@
 }
 
 .navbar ul li a{
-    color: white;
+    
+    color: rgb(252, 252, 252);
     text-decoration: none;
     font-size: 20px;
     padding:6px 13px;
@@ -59,6 +63,27 @@
     text-decoration: underline;
     
 }
+ul li ul {
+    display:none;
+    position:absolute;
+    height: 70px;
+    width:200px
+}
+ul li:hover ul{
+    display:block;  
+}
+li ul li {
+    width: 250px;
+    background:rgba(0, 6, 13, 0.956);
+    display:block; 
+}
+li ul li:hover{
+    background-color:goldenrod;
+}
+
+
+
+
 .yazi{
     color: black;
     font-size:30px; 
@@ -90,4 +115,3 @@
  text-align: center;
  height: auto;
 }
-
