@@ -112,8 +112,9 @@ li ul li:hover{
  height: auto;
 }
 .button{
+    text-transform:uppercase;
     font-family:Roboto;
-    width: 60px;
+    width: 70px;
     height: 50px;
     border:rgba(218, 197, 197, 0.812);;
     background-color: rgba(218, 197, 197, 0.812);
