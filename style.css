@@ -145,5 +145,54 @@ li ul li:hover{
     width: 50px;
     height: 50px;
 }
-
-
+.kbaslik{
+    text-align: center;
+     text-transform: uppercase;
+     font-size: 20px;
+     color: purple
+}
+.bas a{
+    font-size: 20px;
+    font-family:Roboto;
+    text-transform: uppercase;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+}
+.aresim{
+    width: 80%;
+ text-align: left;
+ height: auto;
+}
+.ayazi{
+    position: absolute;
+    top: 350px;
+    background-color:goldenrod;
+    margin-left: 2px;
+    font-size: 35px;
+    color:black;
+}
+.vyazi{
+    position: absolute;
+    top: 850px;
+    background-color:goldenrod;
+    margin-left: 2px;
+    font-size: 35px;
+    color:black;
+}
+.dyazi{
+    position: absolute;
+    top: 1450px;
+    background-color:goldenrod;
+    margin-left: 2px;
+    font-size: 35px;
+    color:black;
+}
+.syazi{
+    position: absolute;
+    top: 2150px;
+    background-color:goldenrod;
+    margin-left: 2px;
+    font-size: 35px;
+    color:black;
+}
