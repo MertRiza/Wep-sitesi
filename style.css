@@ -107,10 +107,18 @@ li ul li:hover{
 }
 
 .resim {
- width: 100%;
+ width: 70%;
  text-align: center;
- height: auto;
+ margin-left: 150px;
+ height: 70%;
 }
+.kresim{
+width: 50%;
+text-align: center;
+height: 50%;
+margin-left: 250px;
+}
+
 .button{
     text-transform:uppercase;
     font-family:Roboto;
@@ -195,4 +203,17 @@ li ul li:hover{
     margin-left: 2px;
     font-size: 35px;
     color:black;
+}
+.yaz{
+    color:black;
+    font-size: 35px;
+    font-family: Roboto;
+}
+.yazz{
+    color: royalblue;
+    font-size: 30px;
+}
+.yazzz{
+    font-size: 25px;
+
 }
