@@ -4,6 +4,9 @@
     margin:0;
     padding:0;
 }
+body{
+    background-color: rgba(218, 197, 197, 0.812); 
+}
 .container{
     background-color: rgba(218, 197, 197, 0.812);
     background-size:100% 100%;
@@ -80,7 +83,7 @@ li ul li:hover{
 
 .yazi{
     font-family:Roboto;
-    color: black;
+    color: #130f40;
     font-size:30px; 
      
 }
@@ -101,9 +104,10 @@ li ul li:hover{
 }
 
 .baslik{
-    color: indigo;
+    color: #3c40c6;
     padding-top: 20px;
     padding-bottom: 20px;
+    font-family: Roboto;
 }
 
 .resim {
@@ -111,53 +115,69 @@ li ul li:hover{
  text-align: center;
  margin-left: 150px;
  height: 70%;
-}
+ box-shadow: 0 0 50px rgba(0, 0,0, .8);
+ border-radius: 30px;
+ }
 .kresim{
 width: 50%;
 text-align: center;
 height: 50%;
 margin-left: 250px;
+box-shadow: 0 0 10px rgba(0, 0,0, .8);
+border-radius: 30px;
 }
 
 .button{
     text-transform:uppercase;
     font-family:Roboto;
-    width: 70px;
+    width: 100px;
     height: 50px;
-    border:rgba(218, 197, 197, 0.812);;
-    background-color: rgba(218, 197, 197, 0.812);
+    border:white;
+    border-radius: 40px;
+    background-color:black;
     padding-top: 5px;
     padding-bottom: 5px;
+    font-size: 20px;
+    color: #f0932b
 }
 .paylas{
     position: absolute;
-   
     width: 50px;
     height: 50px;
+    box-shadow: 0 0 10px rgba(0, 0,0, .8);
+    margin-left: 30px;
+    border-radius: 30px;
 }
 .inst{
     position: absolute;
-    margin-left: 60px;
+    margin-left: 150px;
     width: 50px;
     height: 50px;
+    box-shadow: 0 0 10px rgba(0, 0,0, .8);
+    border-radius: 30px;
 }
 .tvit{
     position: absolute;
-    margin-left: 120px;
+    margin-left: 90px;
     width: 50px;
     height: 50px;
+    box-shadow: 0 0 10px rgba(0, 0,0, .8);
+    border-radius: 30px;
 }
 .tik{
     position: absolute;
-    margin-left: 180px;
+    margin-left: 210px;
     width: 50px;
     height: 50px;
+    box-shadow: 0 0 10px rgba(0, 0,0, .8);
+    border-radius: 30px;
 }
 .kbaslik{
     text-align: center;
      text-transform: uppercase;
      font-size: 20px;
-     color: purple
+     color: #e15f41;
+     font-family: Roboto;
 }
 .bas a{
     font-size: 20px;
@@ -169,8 +189,10 @@ margin-left: 250px;
 }
 .aresim{
     width: 80%;
- text-align: left;
- height: auto;
+    text-align: left;
+     height: auto;
+     box-shadow: 0 0 10px rgba(0, 0,0, .8);
+     border-radius: 30px;
 }
 .ayazi{
     position: absolute;
