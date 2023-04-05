@@ -191,7 +191,7 @@ border-radius: 30px;
 }
 .ayazi{
     position: absolute;
-    top: 350px;
+    top: 400px;
     background-color:goldenrod;
     margin-left: 2px;
     font-size: 35px;
@@ -199,7 +199,7 @@ border-radius: 30px;
 }
 .vyazi{
     position: absolute;
-    top: 850px;
+    top: 900px;
     background-color:goldenrod;
     margin-left: 2px;
     font-size: 35px;
@@ -207,7 +207,7 @@ border-radius: 30px;
 }
 .dyazi{
     position: absolute;
-    top: 1450px;
+    top: 1500px;
     background-color:goldenrod;
     margin-left: 2px;
     font-size: 35px;
