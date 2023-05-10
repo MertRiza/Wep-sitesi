@@ -134,7 +134,21 @@ form{
     width: 800px;
     height: 300px;
 }
-.ile{
-    width: 120px;
-    height: 100px;
+
+form input[type="submit"]:hover{
+    color: white;
+    border: solid 1px white;
+}
+form input[type="submit"]{
+    border: solid 1px ;
+    background-color: darkgoldenrod;
+    box-sizing: border-box;
+    height: 60px;
+    width: 20%;
+    cursor: pointer;
+}
+.giriş{
+    margin-right: 10px;
+    padding: 10px;
+    
 }
